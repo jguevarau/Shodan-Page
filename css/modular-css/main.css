@@ -1,0 +1,53 @@
+/*RECURSOS DE LA PÁGINA###########*/
+/**Fuentes**/
+@font-face {
+    font-family: "Hacker";
+    src: url("/fonts/Hacker-font/Hacker.ttf"); 
+    font-weight: lighter;
+}
+@font-face {
+    font-family: "Hacker";
+    src: url("/fonts/Hacker-font/Hacker-Black.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Hacker";
+    src: url("/fonts/Hacker-font/Hacker-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Hacker";
+    src: url("/fonts/Hacker-font/Hacker-Fat.ttf");
+    font-weight: bolder;
+}
+
+
+/*Estilos Generales*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body{
+    background-color: #3E7A96;
+    overflow-x: hidden;
+    scrollbar-width: 4px;
+}
+input, button{
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

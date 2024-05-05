@@ -1,0 +1,144 @@
+/*Se recomienda antes de importar este archivo, haber importado main.css
+archivo ubicado en /css/modular-css/main.css*/
+/*Para que funcionen los estilos deberían estar dentro de un contenedor con display flex*/
+.main-Sidebar-Container{
+    background-color: #619eb3;
+    width: 320px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*Buscador*/
+
+.main-Sidebar-Container > .nav-Search{
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+}
+.main-Sidebar-Container > .nav-Search > .navText{
+    height: 45px;
+    width: 304px;
+    border: none;
+    border-radius: 0;
+    border: none;
+    margin:0;
+}
+.main-Sidebar-Container > .nav-Search > .navButton{
+    display: flex;
+    height: 45px;
+    width: auto;
+    justify-content: center;
+    border: none;
+    border-radius: 0;
+    align-items: center;
+    color: white;
+    margin: 0;
+}
+.main-Sidebar-Container > .nav-Search > .navButton > p{
+    margin: auto;
+    border: none;
+}
+
+/*Hover*/
+.main-Sidebar-Container > .nav-Search > .navButton:hover{
+    background-color: #1B343C;
+    cursor: pointer;
+}
+.main-Sidebar-Container > .nav-Search > .navButton > img{
+    height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*Probando el índice de la sidebar*/
+
+.main-Indice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: auto;
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+    font-family: 'Consolas';
+}
+.main-Indice > h1{
+    display: block;
+    margin-bottom: 30px;
+}
+.main-Indice > a{
+    display: block;
+    flex: 1;
+    margin-bottom: 20px;
+    color: black;
+}
+.main-Indice > a:hover{
+    color: red;
+}
+.active{
+    color: red !important;
+}
+/*Divisor*/
+.main-Sidebar-Divisor{
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+    color: white;
+}
+.main-Sidebar-Divisor > hr{
+    flex: 1;
+    margin: auto;
+}
+.main-Sidebar-Divisor > p{
+    margin: 10px;
+}
+/*Publicidad*/
+.main-Ad{
+    background-color: #5790a3;
+    margin: 20px;
+}
+
+
+/*Elemento Flotante*/
+.flotante{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Consolas';
+    font-weight: normal;
+    color: white;
+    min-width: max-content;
+    position: fixed;
+    z-index: 10;
+    top: 57%;
+    right: 0;
+    font-size: 12px;
+
+}
+.boton-Flotante{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #1B343C;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+}
+.boton-Flotante:first-child{
+    border-radius: 12px 0 0 0;
+}
+.boton-Flotante:last-child{
+    border-radius: 0 0 0 12px;
+}
+.boton-Flotante > img{
+    width: 30px;
+    margin-bottom: 5px;
+}
+.boton-Flotante:hover{
+    background-color: #777;
+    border: 1px white solid;
+    padding: 9px;
+}

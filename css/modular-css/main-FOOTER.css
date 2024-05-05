@@ -1,0 +1,56 @@
+/*Se recomienda antes de importar este archivo, haber importado main.css
+archivo ubicado en /css/modular-css/main.css*/
+
+.main-Footer{
+    background-color: #262626;
+    padding: 40px;
+    font-family: 'Consolas';
+    color: white;
+}
+.main-Footer > *{
+    max-width: 1300px;
+    margin: auto;
+}
+.main-Footer > .fyc{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/*Sources Styles*/
+.main-Footer > .fyc > .footer-Sources{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+.main-Footer > .fyc > .footer-Sources > a{
+    margin-top: 10px;
+    color: white;
+}
+.main-Footer > .fyc > .footer-Sources > a:hover{
+    color: #0085af;
+}
+
+
+/*Contacto Styles*/
+.main-Footer > .fyc > .footer-ContactMe{
+    width: max-content;
+}
+.contacto{
+    margin-bottom: 20px;
+}
+.contacto > p > a{
+    color: white;
+}
+.contacto > p > a:hover{
+    color: #0085af;
+}
+
+/*Copyright Styles*/
+.main-Footer > .footer-Copyright{
+    margin-top: 20px;
+    text-align: center;
+}
+

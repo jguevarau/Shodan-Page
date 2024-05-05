@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Estilos-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css">
+        <!--SEO-->
+        <title>¿Qué es SHODAN? - The TBD</title>
+        <meta name="description" content="Explora la red global con SHODAN, una excelente herramienta de búsqueda de hosts online. Descubre máquinas en múltiples ubicaciones y analiza sus vulnerabilidades en tiempo real. Ideal para estudios y experimentación en ciberseguridad.">
+        <script src="/js/sidebar.js"></script>
+        <!--Scripts-->
+
+    </head>
+
+    <body>
+        <header class="main-Header" id="buscar">
+            <div id="centrar">
+                <a href="index.html" class="main-Header-Title">
+                    <img src="img/logo.png" alt="logo">
+                    <h1 >
+                        THE BACKDOOR
+                    </h1>
+                </a>
+    
+                <nav class="navmain-Header">
+                    <form action="" method="get" class="nav-Search">
+                        <input type="text" placeholder="Search..."
+                        class="navText">
+
+                        <button type="submit" class="navButton">
+                            <img src="svg/search.svg" alt="icon1">
+                            
+                        </button>
+                    </form>
+    
+                    <ul class="navmain-Header-Buttons">
+                        <a href="index.html">
+                            <li class="navmain-Header-Item">
+                                <img src="svg/settings.svg" alt="icon1">
+                                <p>Settings</p>
+                            </li>
+                        </a>
+                        <a href="img/account-image.gif" target="_blank">
+                            <li class="navmain-Header-Item">
+                                <img src="img/account-image.gif" alt="icon2"
+                                style="border-radius: 20px;">
+                                <p>Account</p>
+                            </li>
+                        </a>
+                        <a href="https://google.com" target="_blank">
+                            <li class="navmain-Header-Item">
+                                <img src="svg/login.svg" alt="icon3">
+                                <p>Log Out</p>
+                            </li>
+                        </a>
+                    </ul>
+                    
+                </nav>
+            </div>
+            
+        </header>
+
+        <div class="main-Container">
+            <div class="main-Content">
+                <section class="main-Section">
+                    <h1 class="main-Title">
+                        ¿QUE ES SHODAN Y CÓMO SE USA?
+                    </h1>
+                    <p class="main-Description">
+                        Shodan es un motor de búsqueda, una página que sirve para encontrar cosas en Internet. Pero no es un buscador de páginas web o imágenes como pueden ser Google o Bing, sino que es un buscador de sistemas y servicios conectados a internet, lo que busca son máquinas conectadas a la red. <br>
+                        El nombre Shodan es una referencia a SHODAN, un personaje de la serie de videojuegos System Shock.3
+                        Fue lanzado en 2009 por el informático John Matherly.<br>
+
+                    </p>               
+                    <h1 class="main-Section-Title" id="1">
+                        ¿Cómo funciona SHODAN?
+                    </h1>
+                    <p class="main-Section-Parragraph">
+                        Al utilizar herramientas como Shodan, se pueden buscar servidores y dispositivos en todo el mundo, pero es importante entender que la búsqueda se limita al texto del banner principal.
+                        Shodan es bastante sencillo de utilizar, y sólo tienes que escribir un término de búsqueda. Cuando lo hagas, se te mostrarán los resultados con la IP, ubicación y otra información técnica de cada servidor.
+                        En la columna de la izquierda tendrás varios filtros que te permitirán encontrar los mejores resultados de servicios públicos, organizaciones, sistemas operativos, etcétera.
+                        Si lo usas sin registrarte sólo podrás acceder a la primera página de resultados de informes. Para ver más páginas o realizar búsquedas en las pestañas de imágenes o mapas, tendrás que registrarte con una cuenta de pago.
+                    </p>
+                    <img src="img/index/1.jpeg" alt="SHODAN"
+                    class="main-Section-IMG">
+
+
+
+                    <p class="main-Section-Parragraph">
+                        Lo único que te queda hacer cuando se te muestre la lista de resultados es pulsar en uno de ellos, y accederás a la información completa y técnica sobre este servidor. <br>
+                        
+                    </p>
+                    
+
+                    <h1 class="main-Section-Title" id="2">
+                        ¿Y cómo se usa?
+                    </h1>
+                    <p class="main-Section-Parragraph">
+                        De cara a un usuario normal sin conocimientos técnicos, Shodan no es demasiado útil, porque posiblemente no entendamos los códigos y nomenclaturas que nos devuelve en las búsquedas. 
+                        
+                        
+                        De cara a un usuario normal sin conocimientos técnicos, Shodan no es demasiado útil, porque posiblemente no entendamos los códigos y nomenclaturas que nos devuelve en las búsquedas.  
+                        Sin embargo, puede llegar a ser peligroso cuando una persona con conocimientos técnicos lo usa, ya que puede encontrar servidores que son vulnerables y hackearlos o entrar en ellos. <br>
+                        Cuando entres en la ficha de uno de los elementos que apareció en los resultados de búsqueda, verás su información TCP y todos los puertos que hay abiertos.
+                        También verás el país al que pertenecen, la ciudad, el nombre de organización o el de la ISP. También puede haber otros datos, aunque todo depende de cada servidor.
+                    </p>
+                    <img src="img/index/2.png" alt="SHODAN" class="main-Section-IMG">
+                    <p class="main-Section-Parragraph">
+                        En este aspecto, utilizar Shodan es completamente legal, ya que se limita a mostrar información que ya está en Internet. En cambio, lo que no es legal es acceder a los servidores que se muestran en los resultados, ya que puedes estar cometiendo delitos de ciberdelincuencia.
+                        Shodan te va a permitir encontrar cualquier tipo de dispositivo conectado a Internet, desde webcams, televisores inteligentes y dispositivos del hogar hasta semáforos, turbinas eólicas, y cualquier otro tipo de infraestructura que use la red para enviar los datos.
+                    </p>
+                    <p class="main-Section-Parragraph">
+                        No es un buscador de servidores vulnerables, sino que encuentras todos los dispositivos, y puede que algunos sean vulnerables. 
+                    </p>
+                    <h1 class="main-Section-Title" id="3">
+                        ¿Es como Google?
+                    </h1>
+                    
+                    <p class="main-Section-Parragraph">
+                        En la indexación de dispositivos conectados a internet. Shodan busca todo tipo de dispositivos, mientras que Google se enfoca en servidores web. <br>
+                        El funcionamiento de Shodan se trata de escanear la red y analizar dispositivos para identificar su tipo y vulnerabilidades. Shodan ofrece información detallada sobre los dispositivos indexados.
+                    </p>
+                    <div class="main-Section-IMG" style="display: flex; justify-content: space-around;">
+                        <img src="img/index/google.png" alt="Google"
+                        style="max-height: 120px;">
+                        <img src="img/index/shodan.png" alt="shodan"
+                        style="max-height: 120px;">
+                    </div>
+
+                    <h1 class="main-Section-Title" id="4">
+                        La Ética de SHODAN
+                    </h1>
+                    <p class="main-Section-Parragraph">
+                        Shodan puede tener varios usos legítimos y éticos para la ciberseguridad, como:
+                    </p>
+        
+                    <ol
+                    class="main-Section-Parragraph"
+                    style="padding-left: 40px;">
+                            <li style="list-style: decimal;">Investigación: Permite a investigadores, analistas de seguridad y estudiantes obtener información sobre dispositivos conectados a Internet para estudiar su seguridad y posibles vulnerabilidades.</li>
+                            <li style="list-style: decimal;">Análisis de seguridad: Ayuda a identificar dispositivos mal configurados o expuestos en la red, lo que puede ser útil para mejorar la seguridad de una organización. vulnerabilidades.</li>
+                            <li style="list-style: decimal;">Monitoreo de infraestructura: Permite a los administradores de red monitorear la presencia de sus dispositivos en Internet y detectar posibles problemas de seguridad.</li>
+                            <li style="list-style: decimal;">Concientización sobre la exposición en línea: Al mostrar la cantidad de dispositivos conectados a Internet y su nivel de exposición, Shodan puede ayudar a las organizaciones a comprender mejor los riesgos de seguridad asociados con sus activos en línea.</li>
+                            
+                    </ol>
+                    <h1 class="main-Section-Title" id="5">
+                        Prevención ante Shodan
+                    </h1>
+                    <p class="main-Section-Parragraph">
+                        Prevenir un ataque que podría ser facilitado por Shodan, un motor de búsqueda que encuentra dispositivos conectados a Internet, requiere una combinación de buenas prácticas de seguridad informática y una comprensión de cómo funciona Shodan. Aquí tienes algunas medidas preventivas:
+                    </p>
+                    <ol
+                    class="main-Section-Parragraph"
+                    style="padding-left: 40px;">
+                            <li style="list-style: decimal;">Escaneo y evaluación interna: Realiza escaneos internos de tus propios sistemas para identificar cualquier dispositivo o servicio que esté expuesto a Internet de forma inadvertida. Esto te ayudará a comprender qué puede ser encontrado por herramientas como Shodan.</li>
+                            <li style="list-style: decimal;">Firewalls y restricciones de acceso: Configura firewalls y restricciones de acceso adecuadas para limitar quién puede acceder a tus sistemas desde Internet. Esto puede ayudar a reducir la superficie de ataque visible para Shodan y otros escáneres.</li>
+                            <li style="list-style: decimal;">Actualizaciones de seguridad: Mantén todos tus sistemas y software actualizados con los últimos parches de seguridad. Las vulnerabilidades conocidas son a menudo explotadas por atacantes y pueden ser identificadas más fácilmente a través de herramientas como Shodan.</li>
+                            <li style="list-style: decimal;">Políticas de contraseña fuerte: Implementa políticas de contraseña fuerte para proteger tus dispositivos y servicios contra ataques de fuerza bruta. Las contraseñas débiles son una de las formas más comunes en las que los atacantes pueden comprometer sistemas.</li>
+                            <li style="list-style: decimal;">Monitorización de actividad sospechosa: Utiliza herramientas de monitorización de red y registros de actividad para detectar cualquier actividad sospechosa en tus sistemas. Esto puede ayudarte a identificar intentos de acceso no autorizado que podrían ser facilitados por Shodan.</li>
+                            <li style="list-style: decimal;">Educación y concienciación del personal: Capacita a tu personal en prácticas de seguridad informática, incluyendo la importancia de no exponer inadvertidamente información sensible a Internet.</li>
+                            <li style="list-style: decimal;">Limita la exposición pública: Si es posible, limita la cantidad de información que expones públicamente sobre tus sistemas. Esto puede incluir deshabilitar servicios innecesarios o restringir el acceso a ciertos recursos.</li>
+                            <li style="list-style: decimal;">Monitoreo de Shodan: Aunque Shodan puede ser utilizado por atacantes, también puede ser utilizado como una herramienta de defensa. Monitorea regularmente Shodan para identificar cualquier exposición no deseada de tus sistemas y toma medidas correctivas según sea necesario.</li>
+                    </ol>
+                    <p class="main-Section-Parragraph">
+                        Al implementar estas medidas preventivas, puedes reducir significativamente el riesgo de ser objetivo de un ataque facilitado por Shodan u otras herramientas similares.
+                    </p>
+
+                    <h1 class="main-Section-Title" id="6">
+                        Utilidad para Profesionales
+                    </h1>
+                    <p class="main-Section-Parragraph">
+                        Shodan es un buscador útil para auditores de seguridad informática, ya que les permite buscar en Internet los servidores que estén auditando u otros servicios, y obtener de ellos mucha información que puede resultarles útil. Esto puede ser útil precisamente para el ámbito de la seguridad, ya que, si tienes los conocimientos, puedes saber hasta qué punto está expuesto un servidor,y así poder fecundizarlo antes de que algún cibercriminal, incluso usando la misma herramienta, pueda mirarlo y atacarte.
+                    </p>
+                    <p class="main-Section-Parragraph">
+                        Esto te puede permitir, por ejemplo, encontrar dispositivos Windows o servidores conectados a la red y buscar posibles vulnerabilidades para atacarlos, o simplemente coger las IPs de un servicio y atacarlas para intentar tirarlas.
+                    </p>
+                    <img src="img/index/3.jpg" alt="Hacker" class="main-Section-IMG">
+                    <p class="main-Section-Parragraph">
+                        Entonces, podemos decir que Shodan es una herramienta completamente neutral, pero que puede tener usos positivos o negativos dependiendo de quién la utilice. 
+                    </p>
+                    <p class="main-Section-Parragraph"
+                    style="text-align: center;"
+                    >Te invitamos a usarlo:
+                    </p>
+                    <!--Solo le puse estilos al boton de SHODAN, estaba contrareloj-->
+                    <a href="https://www.shodan.io/" class="main-Section-IMG shodan-button" target="_blank"
+                        style="
+                        padding: 10px 40px;
+                        border-radius: 25px;
+                        background-color: #FFF;
+                        padding: auto 40px;
+                        width: max-content;
+                        margin-bottom: 20px;
+                        box-shadow: 2px 2px 3px black;
+                        ">
+                        <img src="img/index/shodan.png" alt="Link.shodan"style="height: 100px;">
+                    </a>
+                    <style>
+                        .shodan-button:hover{
+                            background-color: #dabda5 !important;
+                            border: 1px solid black !important;
+                            transition: 0.1s;
+                            
+                            
+                        }
+                    </style>
+                    
+                </section>
+
+            </div>
+
+            
+            
+            <aside class="main-Sidebar-Container">
+                
+                <form method="get" class="nav-Search">
+                    <input type="text" placeholder="Buscar en la página..."
+                    class="navText">
+                    <a type="submit" class="navButton">
+                        <p>Buscar</p>
+                    </a>
+                </form>
+                <div class="main-Indice" id="main-indice">
+                    <h1>
+                        Índice
+                    </h1>
+                    <a href="#1" class="active">¿Qué es Shodan?</a>
+                    <a href="#2">¿Y cómo se usa?</a>
+                    <a href="#3">¿Es como Google?</a>
+                    <a href="#4">La Ética de Shodan</a>
+                    <a href="#5">Prevención ante Shodan</a>
+                    <a href="#6">Utilidad para Profesi...</a>
+                </div>
+                
+                <div class="main-Sidebar-Divisor">
+                    <hr>
+                    <p>Anuncios</p>
+                    <hr>
+                </div>
+                <div class="main-Ad">
+                    AD
+                </div>
+                
+                
+                
+                
+            </aside>
+        </div>
+
+        <div class="flotante">
+            <a href="#buscar" class="boton-Flotante" >
+                <img src="svg/lista-index.svg" alt="buscar-pagina">
+                <p>Buscar</p>
+            </a>
+            <a href="#main-indice" class="boton-Flotante">
+                <img src="svg/buscar-pagina.svg" alt="busdcar-pagina">
+                <p>Índice</p>
+                
+            </a>
+        </div>
+
+
+
+
+        <footer class="main-Footer">
+            <div class="fyc">
+                <div class="footer-Sources">
+                    <h3>Fuentes:</h3>
+
+                    <a href="https://www.xataka.com/basics/shodan-que-se-puede-usar-este-buscador-dispositivos-conectados-a-internet" target="_blank">Xataka.com</a>
+
+                    <a href="https://www.redeszone.net/tutoriales/seguridad/shodan-busqueda-hacking/" target="_blank">Redeszone.net</a>
+
+                    <a href="https://openwebinars.net/blog/que-es-shodan/" target="_blank">OpenWebinars</a>
+
+                    <a href="https://www.shodan.io/" target="_blank">Shodan.io</a>
+
+                    <a href="READ.ME" target="_blank">Read.me (Información)</a>
+                </div>
+
+                <div class="footer-ContactMe">
+                    <div class="contacto">
+                        <p>Contact me: Juan Angel Guevara</p>
+                        <p>Email: <a href="mailto:1515487@senati.pe" target="_blank">1515487@senati.pe</a></p>
+                        <p>Whatsapp: <a href="https://wa.me/51993981651" target="_blank">993981651</a></p>
+                    </div>
+
+                    <div class="contacto">
+                        <p>Contact me: Darwin Marín Rodríguez</p>
+                        <p>Email: <a href="mailto:1518701@senati.pe" target="_blank">1518701@senati.pe</a></p>
+                        <p>Whatsapp: <a href="https://wa.me/51976181359" target="_blank">976181359</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-Copyright">&copy; Todos los derechos reservados</div>
+        </footer>
+
+        <script src=""></script>
+    </body>
+</html>
+

@@ -1,0 +1,124 @@
+/*Se recomienda antes de importar este archivo, haber importado main.css
+archivo ubicado en /css/modular-css/main.css*/
+
+/*TITULO DEL HEADER*/
+.main-Header{
+    background-color: #1B343C;
+    box-shadow: 0px 1px 2px black ;
+    
+    
+}
+.main-Header > #centrar{
+    display: flex;
+    max-width: 2000px;
+    margin: 0 auto 0;
+}
+.main-Header-Title{
+    width: auto;
+    
+    /*De igual manera a Flex*/
+    display: flex;
+    padding: 12px;
+    
+}
+.main-Header-Title > img{
+    height: 50px;
+}
+.main-Header-Title > h1{
+    margin-left: 12px;
+    font-family: 'Hacker';
+    width: max-content;
+    font-size:25px;
+    align-content: center;
+    color: white;
+}
+
+
+/*BARRA DE NAVEGACIÓN*/
+.navmain-Header{
+    flex: 1;
+    /*De igual manera a Flex*/
+    display: flex;
+    justify-content: flex-end;
+    padding: 7px;
+    align-content: center;
+}
+.nav-Search{
+    align-content: center;
+    margin-right: 40px;
+    width: max-content;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    
+}
+.nav-Search > .navText{
+    height: 32px;
+    border-radius: 100px 100px 100px 100px;
+    width: 220px;
+    margin-right: 15px;
+    padding-left: 15px;
+
+}
+.nav-Search > .navButton{
+    height: 32px;
+    width: 90px;
+    background-color: #14262c;
+    border-radius: 100px 100px 100px 100px;
+    border: 2px solid #FFFFFF;
+    margin-top: 2px;
+}
+/*Hover*/
+.nav-Search > .navButton:hover{
+    background-color: #1B343C;
+    cursor: pointer;
+}
+.nav-Search > .navButton > img{
+    height: 25px;
+    
+    
+}
+
+
+
+
+
+
+/*Maquetación básica de botones*/
+.navmain-Header-Buttons{
+    display: flex;
+}
+.navmain-Header-Buttons > a{
+    display: flex;
+    margin: 0 15px 0;
+    border-radius: 10px;
+    padding: 3px;
+    border: 2px solid #1B343C;
+}
+/*Estilos botones*/
+.navmain-Header-Item{
+    display: flex;
+    min-width: 50px;
+    width: auto;
+    padding: 5px;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.navmain-Header-Item > img{
+    height: 32px;
+    margin: auto;
+    margin-bottom: 2px;
+    
+}
+.navmain-Header-Item > p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 13px;
+    margin: auto;
+    width: max-content;
+}
+.navmain-Header-Buttons > a:hover{
+    background-color: #14262c;
+    border-color: rgba(255, 255, 255, 0.541);
+    transition: 0.2s;
+}
